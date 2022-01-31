@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing for GifExpertApp component Must match the snapshot 1`] = `
+<Fragment>
+  <h2
+    className="animate__animated animate__flipInX animate__slow"
+  >
+    GifExpertApp
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;
+
+exports[`Testing for GifExpertApp component Must show a list of categories 1`] = `
+<Fragment>
+  <h2
+    className="animate__animated animate__flipInX animate__slow"
+  >
+    GifExpertApp
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifGrid
+      category="Gintama"
+      key="Gintama"
+    />
+    <GifGrid
+      category="Dragon Ball"
+      key="Dragon Ball"
+    />
+  </ol>
+</Fragment>
+`;
