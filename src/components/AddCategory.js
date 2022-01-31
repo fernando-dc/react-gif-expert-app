@@ -12,6 +12,7 @@ export const AddCategory = ({setCategories}) => {
         //setCategories will use the callback function to access the array elements since this component cant do that
         if (inputValue.trim().length > 2){
             setCategories( categories => [inputValue, ...categories]);
+            setinputValue('');
         }
     };
 

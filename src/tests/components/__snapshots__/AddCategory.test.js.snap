@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing for AddCategory component Must show component correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    className="animate__animated animate__fadeInDown animate__delay-1s"
+    onChange={[Function]}
+    placeholder="Input new value"
+    type="text"
+    value=""
+  />
+</form>
+`;
